@@ -361,24 +361,6 @@ class Main : GenericActivity(),
     }
 
     override fun onNeedUpdate(o_code: String, n_code: String) {
-        runOnUiThread {
-            try {
-                MaterialDialog(this@Main).safeShow {
-                    title(text = "Actualización")
-                    if (n_code.toInt() > AdsUtils.remoteConfigs.getLong("min_version").toInt()) {
-                        message(text = "Parece que la versión $n_code está disponible, ¿Quieres actualizar?")
-                        positiveButton(text = "si") { UpdateActivity.start(this@Main,true) }
-                        negativeButton(text = "despues")
-                    }else {
-                        message(text = "Parece que la versión $n_code está disponible, es obligatoria")
-                        positiveButton(text = "actualizar") { UpdateActivity.start(this@Main,false) }
-                        cancelable(false)
-                    }
-                }
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-        }
     }
 
     private fun setSearch() {
