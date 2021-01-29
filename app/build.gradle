@@ -27,31 +27,31 @@ android {
     buildTypes {
         debug {
             buildConfigField "String", "IAB_KEY",
-                    "\"" + APPCOINS_IAB_KEY + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "IAB_UPDATE_ACTION",
-                    "\"" + APPCOINS_IAB_UPDATE_ACTION + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "IAB_BIND_ACTION",
-                    "\"" + APPCOINS_DEV_IAB_BIND_ACTION + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "IAB_BIND_PACKAGE",
-                    "\"" + APPCOINS_DEV_IAB_BIND_PACKAGE + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "APPCOINS_ADDRESS",
-                    "\"" + APPCOINS_ADDRESS + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "DROPBOX_TOKEN",
-                    "\"" + DROPBOX_TOKEN + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "EASTER_SEARCH",
-                    "\"" + EASTER_SEARCH + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "CIPHER_PWD_12",
-                    "\"" + UKIKU_PWD_12 + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "CIPHER_PWD_16",
-                    "\"" + UKIKU_PWD_16 + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "CIPHER_PWD_32",
-                    "\"" + UKIKU_PWD_32 + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "ADM_FILE",
-                    "\"" + UKIKU_ADM_FILE + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "APPODEAL_KEY",
-                    "\"" + UKIKU_APPODEAL_KEY + "\""
-            resValue "string", "twitter_consumer_key", "\"" + UKIKU_TWITTER_API_KEY + "\""
-            resValue "string", "twitter_consumer_secret", "\"" + UKIKU_TWITTER_API_SECRET + "\""
+                    "\"" + "" + "\""
+            resValue "string", "twitter_consumer_key", "\"" + "" + "\""
+            resValue "string", "twitter_consumer_secret", "\"" + "" + "\""
             manifestPlaceholders = [iabPermission: "com.appcoins.dev.BILLING"]
         }
         release {
@@ -59,31 +59,31 @@ android {
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro', 'proguard-android.txt'
             buildConfigField "String", "IAB_KEY",
-                    "\"" + APPCOINS_IAB_KEY + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "IAB_UPDATE_ACTION",
-                    "\"" + APPCOINS_IAB_UPDATE_ACTION + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "IAB_BIND_ACTION",
-                    "\"" + APPCOINS_IAB_BIND_ACTION + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "IAB_BIND_PACKAGE",
-                    "\"" + APPCOINS_IAB_BIND_PACKAGE + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "APPCOINS_ADDRESS",
-                    "\"" + APPCOINS_ADDRESS + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "DROPBOX_TOKEN",
-                    "\"" + DROPBOX_TOKEN + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "EASTER_SEARCH",
-                    "\"" + EASTER_SEARCH + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "CIPHER_PWD_12",
-                    "\"" + UKIKU_PWD_12 + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "CIPHER_PWD_16",
-                    "\"" + UKIKU_PWD_16 + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "CIPHER_PWD_32",
-                    "\"" + UKIKU_PWD_32 + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "ADM_FILE",
-                    "\"" + UKIKU_ADM_FILE + "\""
+                    "\"" + "" + "\""
             buildConfigField "String", "APPODEAL_KEY",
-                    "\"" + UKIKU_APPODEAL_KEY + "\""
-            resValue "string", "twitter_consumer_key", "\"" + UKIKU_TWITTER_API_KEY + "\""
-            resValue "string", "twitter_consumer_secret", "\"" + UKIKU_TWITTER_API_SECRET + "\""
+                    "\"" + "" + "\""
+            resValue "string", "twitter_consumer_key", "\"" + "" + "\""
+            resValue "string", "twitter_consumer_secret", "\"" + "" + "\""
             firebaseCrashlytics {
                 mappingFileUploadEnabled true
             }
